@@ -1,0 +1,35 @@
+
+#product .pro{
+    color: black;
+}
+#ba .next{
+    color: #b7b7b7;
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-bottom: -180px;
+
+}
+#ba .next button{
+    border: 1px solid black;
+    border-color: #a5a5a5;
+    border-radius: 5px;
+    color:#b7b7b7;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+#ba .next button:hover{
+    background-color: #ffffff;
+}
+#ba .next h4{
+    color: #b7b7b7;
+    margin-top: -25px;
+    margin-left: 155px;
+}
+#ba .next .last{
+    
+    margin-left: 40px;
+}

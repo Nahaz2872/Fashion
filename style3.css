@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+body{
+        background-image: url('signUp.webp');
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-color: #f2f3ef;
+        background-position: left;
+        background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .card {
+    width: 450px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    color: #333;
+    animation: slideDown 0.5s ease-out;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    outline: none;
+  }
+  
+  .form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .form input[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  .form p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form a {
+    color: #333;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .form a:hover {
+    color: #444;
+  }
+  
+  .form .alert {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    animation: slideUp 0.5s ease-out;
+  }
+  
+  .form .alert.show {
+    display: block;
+  }
+  
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+    
